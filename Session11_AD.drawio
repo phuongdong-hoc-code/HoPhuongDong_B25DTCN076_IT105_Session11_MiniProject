@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="biFH0huxM1mdFOX_M-65">
+    <mxGraphModel dx="1608" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WESBGf9ACzhWZe0YxWco-3" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Khách hàng" vertex="1">
+          <mxGeometry height="680" width="350" x="90" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-1" parent="WESBGf9ACzhWZe0YxWco-3" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-2" edge="1" parent="WESBGf9ACzhWZe0YxWco-3" source="WESBGf9ACzhWZe0YxWco-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-5" parent="WESBGf9ACzhWZe0YxWco-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Yêu cầu đặt lịch hẹn" vertex="1">
+          <mxGeometry height="60" width="120" x="115" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-24" edge="1" parent="WESBGf9ACzhWZe0YxWco-3" source="WESBGf9ACzhWZe0YxWco-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-23" value="Không">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-20" parent="WESBGf9ACzhWZe0YxWco-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Chấp nhận khung giờ mới ?&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-23" parent="WESBGf9ACzhWZe0YxWco-3" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="30" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-4" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Lễ tân" vertex="1">
+          <mxGeometry height="680" width="340" x="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-9" edge="1" parent="WESBGf9ACzhWZe0YxWco-4" source="WESBGf9ACzhWZe0YxWco-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-7" parent="WESBGf9ACzhWZe0YxWco-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Kiểm tra lịch trống" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-14" edge="1" parent="WESBGf9ACzhWZe0YxWco-4" source="WESBGf9ACzhWZe0YxWco-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;verticalAlign=middle;" target="WESBGf9ACzhWZe0YxWco-11" value="Có&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270.03" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-8" parent="WESBGf9ACzhWZe0YxWco-4" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Kiẻm tra khung giờ còn trống không?" vertex="1">
+          <mxGeometry height="80" width="175" x="82.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-10" parent="WESBGf9ACzhWZe0YxWco-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Đề xuất khung giờ khác" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-13" edge="1" parent="WESBGf9ACzhWZe0YxWco-4" source="WESBGf9ACzhWZe0YxWco-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.454;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="WESBGf9ACzhWZe0YxWco-10" value="Không">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="64.52" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-16" edge="1" parent="WESBGf9ACzhWZe0YxWco-4" source="WESBGf9ACzhWZe0YxWco-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-17" parent="WESBGf9ACzhWZe0YxWco-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Xác nhận lịch hẹn" vertex="1">
+          <mxGeometry height="60" width="120" x="202.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-11" parent="WESBGf9ACzhWZe0YxWco-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Tạo lịch hẹn khác" vertex="1">
+          <mxGeometry height="60" width="120" x="202.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-18" parent="WESBGf9ACzhWZe0YxWco-4" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="247.5" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-19" edge="1" parent="WESBGf9ACzhWZe0YxWco-4" source="WESBGf9ACzhWZe0YxWco-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-6" edge="1" parent="1" source="WESBGf9ACzhWZe0YxWco-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-21" edge="1" parent="1" source="WESBGf9ACzhWZe0YxWco-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WESBGf9ACzhWZe0YxWco-25" edge="1" parent="1" source="WESBGf9ACzhWZe0YxWco-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WESBGf9ACzhWZe0YxWco-11" value="Có">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
